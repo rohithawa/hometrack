@@ -1,0 +1,10 @@
+1. Detail monitoring on cloud watch logs and matrix
+2. Configure CNAME mapping to the ELB end point in Route 53
+3. Enable notification for auto scaling
+4. More fine grain IAM role permission access instead of keeping the default
+5. Launch environment in a custom VPC instead of the default VPC
+6. To avoid exposing instances to the Internet, run instances in private subnets and load balancer in public subnets
+7. Depending on the usage, configure autoscaling triggers
+8. Implement JWT token to secure the API
+9. Enable WAF for security
+10. Create cloud formation template

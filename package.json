@@ -1,0 +1,32 @@
+{
+  "name": "hometrack",
+  "version": "0.0.1",
+  "description": "Post some JSON data then apply filter on the data and return a few fields",
+  "author": "Rohitha Wanni Achchige <rohitha_wa@yahoo.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rohithawa/hometrack"
+  },
+  "keywords": [],
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonschema": "^1.1.1"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint .",
+    "mocha": "nyc --reporter=html --reporter=text mocha tests/**.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3"
+  }
+}
